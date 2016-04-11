@@ -61,7 +61,7 @@ $app->post('/users', function() use ($app) {
 
     foreach ($checks as $code => $check) {
         if (call_user_func($check, $data) == false) {
-            error($code, $code);
+            error(__($code), __($code));
             return;
         }
     }
