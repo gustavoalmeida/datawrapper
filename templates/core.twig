@@ -108,9 +108,13 @@
       {{ block('content') }}
 
 
+    
+
+    </div>
+
     {% if not noFooter %}
       <footer class="footer">
-
+      <div class="container">
         <p class="pull-right" style="text-align:right">
           <a href="#top">{% trans "Back to top" %}</a>
           <span class="version">version <a href="https://github.com/datawrapper/datawrapper/blob/master/CHANGELOG.md#{{ DW_VERSION | replace({ '.': '' }) }}">{{ DW_VERSION }}</a> {{ BRANCH | raw }}</span>
@@ -134,10 +138,9 @@
           {% endfor %}
         </div>
         {% endif %}
+        </div>
       </footer>
     {% endif %}
-
-    </div>
 
     <div id="alertModal" class="modal hide">
       <div class="modal-body">
