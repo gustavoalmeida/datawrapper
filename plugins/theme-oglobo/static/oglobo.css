@@ -125,7 +125,7 @@ a img { border:0px; }
     the toggleable panel to "go up" */
     z-index: 1100;
     /* Sets the background here to propagate it to its children */
-    background:#005e97 url(http://css.og.infg.stg/1460151069/img/bg-header-home.png) no-repeat 200px 2px;
+    background:#005e97 url(http://css.og.infg.stg/1460151069/img/bg-header-home.png) no-repeat 50% 0px;
 }
 
 #footer, .dw-chart-footer a{
@@ -153,10 +153,10 @@ within the .toggleable-panel */
 }
 
 .dw-chart-footer .footer-right .logo-oglobo{
-    background: url(logo-oglobo-p-shadow.png) no-repeat 0 0;
+    background: url(logo-oglobo-p-15h.png) no-repeat 0 0;
     display: inline-block;
-    height: 15px;
-    width: 83px;
+    height: 13px;
+    width: 76px;
     text-indent: -5000px;   
 }
 
